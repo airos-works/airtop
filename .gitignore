@@ -1,0 +1,7 @@
+build/
+build-*/
+artifacts/
+evidence/
+*.o
+*.d
+__pycache__/

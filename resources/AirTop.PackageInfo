@@ -1,0 +1,16 @@
+name airtop
+version 1.2.0-4
+architecture arm64
+summary "AirTop system monitor"
+description "A native air/OS and Haiku system monitor with a dark, btop-inspired dashboard: CPU, memory, network, processes, volumes and thermal sensors. On a machine with an auxiliary display (the DSI panel of a Raspberry Pi) it shows the CPU graph, the network graph and the temperature there too, with or without its window (AirTop --panel)."
+packager "air/OS contributors"
+vendor "air/OS"
+copyrights { "2026 air/OS contributors" }
+licenses { "MIT" }
+provides {
+	airtop = 1.2.0
+	app:AirTop = 1.2.0
+}
+requires {
+	haiku >= r1~beta5
+}
