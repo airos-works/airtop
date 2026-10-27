@@ -2,6 +2,19 @@
 
 A native Air/OS and Haiku system monitor with a dark, btop-inspired dashboard. Written in C++17 using Haiku's Interface Kit, Storage Kit, Network Kit, and kernel APIs. No browser, Qt, SDL, shell polling, or third-party runtime is needed.
 
+<!-- airos-ci:latest-builds:start -->
+## Latest builds
+
+Built automatically by air/OS CI from commit `f4ef167` on 2026-10-27 ([all files](https://github.com/jmgasper/airtop/releases/tag/latest)).
+
+| Architecture | Package |
+|---|---|
+| arm64 | [airtop-1.2.0-4-arm64.hpkg](https://github.com/jmgasper/airtop/releases/download/latest/airtop-1.2.0-4-arm64.hpkg) |
+| x86_64 | [airtop-1.2.0-4-x86_64.hpkg](https://github.com/jmgasper/airtop/releases/download/latest/airtop-1.2.0-4-x86_64.hpkg) |
+
+Install with `pkgman install <file>`, or copy the file into `/boot/system/packages`. Haiku SDK: x86_64 hrev60207-2036-g3d3d333c06, arm64 hrev60207-2036-g3d3d333c06.
+<!-- airos-ci:latest-builds:end -->
+
 ## What it monitors
 
 - Aggregate CPU load, every logical CPU, mean reported clock, thread count, and two minutes of history.
